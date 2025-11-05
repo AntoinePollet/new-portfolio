@@ -98,7 +98,7 @@ export default function Portfolio() {
             Full-Stack Développeur | 6 ans d'expérience
           </p>
           <p className="text-slate-400 mb- max-w-2xl mx-auto">
-          Expert de l’intégration UI avec Vue.js et React, je conçois des solutions end‑to‑end sur tout l’écosystème JS/TS (frontend comme backend).
+          Expert frontend Vue.js & React : je conçois et déploie des interfaces modernes et performantes, avec une maîtrise end-to-end de la stack JS/TS (frontend & backend).
           </p>
           
           <div className="flex justify-center gap-6 my-8 flex-wrap text-sm text-slate-300">
