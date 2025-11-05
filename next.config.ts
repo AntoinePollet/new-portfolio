@@ -8,14 +8,10 @@ const nextConfig: NextConfig = {
   },
   // Handle GitHub Pages base path so assets like /profile.jpeg resolve correctly
   basePath: (() => {
-    const repo = process.env.GITHUB_REPOSITORY?.split('/')[1] ?? '';
-    const isRootSite = repo.endsWith('.github.io');
-    return isRootSite ? '' : (repo ? `/${repo}` : '');
+    return '/new-portfolio'
   })(),
   assetPrefix: (() => {
-    const repo = process.env.GITHUB_REPOSITORY?.split('/')[1] ?? '';
-    const isRootSite = repo.endsWith('.github.io');
-    return isRootSite ? '' : (repo ? `/${repo}/` : '');
+    return '/new-portfolio/'
   })(),
 };
 
