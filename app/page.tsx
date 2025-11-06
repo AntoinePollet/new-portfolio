@@ -88,7 +88,7 @@ export default function Portfolio() {
         <div className="max-w-4xl mx-auto text-center mb-16">
           <div className="inline-block mb-6">
             <div className="w-32 h-32 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 mx-auto mb-6 flex items-center justify-center text-4xl font-bold">
-              <Image src="/profile.jpeg" alt="Antoine Pollet" width={128} height={128} className="rounded-full" />
+              <Image src="/new-portfolio/profile.jpeg" alt="Antoine Pollet" width={128} height={128} className="rounded-full" />
             </div>
           </div>
           <h1 className="text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">

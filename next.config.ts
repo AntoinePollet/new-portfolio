@@ -6,13 +6,6 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true
   },
-  // Handle GitHub Pages base path so assets like /profile.jpeg resolve correctly
-  basePath: (() => {
-    return '/new-portfolio'
-  })(),
-  assetPrefix: (() => {
-    return '/new-portfolio/'
-  })(),
 };
 
 export default nextConfig;
